@@ -140,42 +140,6 @@ Use the timing offset in the widget settings. Positive values show lyrics earlie
 
 Both providers use unofficial endpoints and may change without notice. The widget automatically moves on to the next source. LRCLib is the most stable option.
 
-## Publishing to the KDE Store
-
-Build the store package:
-
-```sh
-./package.sh
-```
-
-This creates `dist/org.user.pearlyrics-<version>.plasmoid`.
-
-To publish it:
-
-1. Sign in to <https://store.kde.org/>.
-2. Choose **Add Product** and select **Plasma 6 Add-Ons → Plasma Applets**.
-3. Fill in the product page:
-   - **Name:** Pear Lyrics
-   - **Description:** synced lyrics for Pear Desktop and other MPRIS players
-   - **License:** GPL-2.0+
-   - **Source code:** <https://github.com/Ayushrestha05/pear-lyrics>
-   - **Bug reports:** <https://github.com/Ayushrestha05/pear-lyrics/issues>
-   - **Screenshot:** `screenshots/screenshot.png`
-4. Upload `dist/org.user.pearlyrics-<version>.plasmoid` as the download file.
-5. Publish the product.
-
-Once indexed, users can install it from Plasma with **Add Widgets → Get New Widgets → Download New Plasma Widgets** and searching for **Pear Lyrics**.
-
-For updates, bump `Version` in `package/metadata.json`, run `./package.sh`, and upload the new `.plasmoid` to the same store product.
-
-A GitHub Release is also useful as a direct download and as a fallback link from the store page:
-
-```sh
-gh release create v1.1 dist/org.user.pearlyrics-1.1.plasmoid \
-  --title "Pear Lyrics 1.1" \
-  --notes "Synced lyrics with LRCLib, YouTube Music and Genius fallback."
-```
-
 ## Repository layout
 
 ```text
