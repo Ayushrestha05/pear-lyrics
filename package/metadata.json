@@ -1,0 +1,14 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Id": "org.user.pearlyrics",
+        "Name": "Pear Lyrics",
+        "Description": "Synced lyrics of the song playing in Pear Desktop (via MPRIS + LRCLIB, YouTube Music or Genius)",
+        "Icon": "media-playback-start",
+        "Category": "Multimedia",
+        "Authors": [{ "Name": "You" }],
+        "License": "GPL-2.0+",
+        "Version": "1.1"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
