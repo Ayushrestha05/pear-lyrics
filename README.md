@@ -153,7 +153,7 @@ This creates `dist/org.user.pearlyrics-<version>.plasmoid`.
 To publish it:
 
 1. Sign in to <https://store.kde.org/>.
-2. Choose **Add Product** and select **Plasma 6 Add-Ons → Plasma Widgets**.
+2. Choose **Add Product** and select **Plasma 6 Add-Ons → Plasma Applets**.
 3. Fill in the product page:
    - **Name:** Pear Lyrics
    - **Description:** synced lyrics for Pear Desktop and other MPRIS players
