@@ -3,10 +3,17 @@
     "KPlugin": {
         "Id": "org.user.pearlyrics",
         "Name": "Pear Lyrics",
-        "Description": "Synced lyrics of the song playing in Pear Desktop (via MPRIS + LRCLIB, YouTube Music or Genius)",
+        "Description": "Synced lyrics widget for KDE Plasma with LRCLib, YouTube Music and Genius support",
         "Icon": "media-playback-start",
         "Category": "Multimedia",
-        "Authors": [{ "Name": "You" }],
+        "Authors": [
+            {
+                "Name": "Ayush Shrestha",
+                "Email": "ayushrestha05@gmail.com"
+            }
+        ],
+        "BugReportUrl": "https://github.com/Ayushrestha05/pear-lyrics/issues",
+        "Website": "https://github.com/Ayushrestha05/pear-lyrics",
         "License": "GPL-2.0+",
         "Version": "1.1"
     },
